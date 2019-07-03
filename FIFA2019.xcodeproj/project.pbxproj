@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522A61E58AA8DF5B87AEE38C /* Pods_FIFA2019_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673A919688A244389067843F /* Pods_FIFA2019_WatchKit_App.framework */; };
 		6E7103E622CC48F500DB21E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7103E522CC48F500DB21E3 /* AppDelegate.swift */; };
 		6E7103E822CC48F500DB21E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7103E722CC48F500DB21E3 /* ViewController.swift */; };
 		6E7103EB22CC48F500DB21E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7103E922CC48F500DB21E3 /* Main.storyboard */; };
@@ -23,7 +24,6 @@
 		6E71042022CC513200DB21E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E71041F22CC513100DB21E3 /* GoogleService-Info.plist */; };
 		7BF26C157CE05605538C080E /* Pods_FIFA2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DFC167CF66E3BE2F752730 /* Pods_FIFA2019.framework */; };
 		96DAE590C48833C762446620 /* Pods_FIFA2019_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2954262C831A0C5A74FF4929 /* Pods_FIFA2019_WatchKit_Extension.framework */; };
-		B12C03DE0C45A8AFA0AEFEF4 /* libPods-FIFA2019 WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD92D1D90309E2BBAAAA1978 /* libPods-FIFA2019 WatchKit App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +73,7 @@
 		36DFC167CF66E3BE2F752730 /* Pods_FIFA2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIFA2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C5C371EEDD1BC7CC6AF084 /* Pods-FIFA2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA2019.debug.xcconfig"; path = "Target Support Files/Pods-FIFA2019/Pods-FIFA2019.debug.xcconfig"; sourceTree = "<group>"; };
 		561DAC12EE9578D04ED9A487 /* Pods-FIFA2019 WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA2019 WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-FIFA2019 WatchKit App/Pods-FIFA2019 WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		673A919688A244389067843F /* Pods_FIFA2019_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIFA2019_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7103E222CC48F500DB21E3 /* FIFA2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIFA2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7103E522CC48F500DB21E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E7103E722CC48F500DB21E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +95,6 @@
 		6E71041F22CC513100DB21E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8832CBDDC73FA0FFD422EC7D /* Pods-FIFA2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA2019.release.xcconfig"; path = "Target Support Files/Pods-FIFA2019/Pods-FIFA2019.release.xcconfig"; sourceTree = "<group>"; };
 		AA133F1F38874F65FEE9D2A8 /* Pods-FIFA2019 WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA2019 WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-FIFA2019 WatchKit Extension/Pods-FIFA2019 WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		BD92D1D90309E2BBAAAA1978 /* libPods-FIFA2019 WatchKit App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FIFA2019 WatchKit App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB26697A1B4728CCFDAFAD6E /* Pods-FIFA2019 WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA2019 WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-FIFA2019 WatchKit Extension/Pods-FIFA2019 WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		EF4E56FD5938451E7B6A73F9 /* Pods-FIFA2019 WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA2019 WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-FIFA2019 WatchKit App/Pods-FIFA2019 WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12C03DE0C45A8AFA0AEFEF4 /* libPods-FIFA2019 WatchKit App.a in Frameworks */,
+				522A61E58AA8DF5B87AEE38C /* Pods_FIFA2019_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				36DFC167CF66E3BE2F752730 /* Pods_FIFA2019.framework */,
-				BD92D1D90309E2BBAAAA1978 /* libPods-FIFA2019 WatchKit App.a */,
 				2954262C831A0C5A74FF4929 /* Pods_FIFA2019_WatchKit_Extension.framework */,
+				673A919688A244389067843F /* Pods_FIFA2019_WatchKit_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
