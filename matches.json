@@ -1,0 +1,52 @@
+{
+  "matches" : {
+    "QF" : {
+      "Date" : "27 Jun 2019",
+      "Lat" : "49.497270",
+      "Location" : {
+        "City" : "Le Havre",
+        "Stadium" : "Stade Océane"
+      },
+      "Long" : "0.168880",
+      "TeamA" : "Norway",
+      "TeamB" : "England",
+      "Time" : "21:00"
+    },
+    "SemiFinal" : {
+        "Date" : "02 Jul 2019",
+        "Lat" : "45.555660",
+        "Location" : {
+            "City" : "Lyon",
+            "Stadium" : "Stade de Lyon"
+        },
+        "Long" : "5.482580",
+        "TeamA" : "England",
+        "TeamB" : "USA",
+        "Time" : "21:00"
+    },
+    "MatchFor3rdPlace" : {
+        "Date" : "06 Jul 2019",
+        "Lat" : "44.915958",
+        "Location" : {
+            "City" : "Nice",
+            "Stadium" : "Stade de Nice"
+        },
+        "Long" : "-0.428060",
+        "TeamA" : "England",
+        "TeamB" : "Netherland",
+        "Time" : "17:00"
+     },
+    "Final" : {
+        "Date" : "07 Jul 2019",
+        "Lat" : "45.555660",
+        "Location" : {
+            "City" : "Lyon",
+            "Stadium" : "Stade de Lyon"
+        },
+        "Long" : "5.482580",
+        "TeamA" : "USA",
+        "TeamB" : "Sweden",
+        "Time" : "17:00"
+      }
+  }
+}
