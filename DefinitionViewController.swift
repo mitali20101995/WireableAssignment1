@@ -10,12 +10,12 @@ import UIKit
 
 class DefinitionViewController: UIViewController {
     @IBOutlet weak var lblDefinition: UILabel!
-    var colour = "red"
+    var def = "match_data"
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        lblDefinition.text = colour
+        lblDefinition.text = def
     }
     
 

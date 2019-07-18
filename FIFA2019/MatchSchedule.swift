@@ -10,9 +10,9 @@ import Foundation
 
 class MatchSchedule
 {
-    var type: String
-    var date: String
-    var time: String
+    var type: String = ""
+    var date: String = ""
+    var time: String = ""
     var teamA: Team
     var teamB: Team
     var location: Location
